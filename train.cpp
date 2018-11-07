@@ -8,9 +8,8 @@
 using namespace std;
 
 int main(){
-	srand (time(NULL));//设置随机数种子
+	srand (time(NULL));
 	User userTrain;
-	User userTest;
 	struct tm *ptr;
 	time_t it=time(NULL);
 	ptr=localtime(&it);
